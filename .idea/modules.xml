@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/magerl-media.iml" filepath="$PROJECT_DIR$/.idea/magerl-media.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/magerl-media.iml" filepath="$PROJECT_DIR$/.idea/magerl-media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/magerl-media-site.iml" filepath="$PROJECT_DIR$/.idea/magerl-media-site.iml" />
     </modules>
   </component>
 </project>
