@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Signika:400,300,600,700);
+
+@font-face {
+    font-family: 'Mission';
+    src: url('../../font/Mission.otf') format('opentype');
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Mission", sans-serif;
+}
+
+h1, #seitenTitel {
+    font-size: 90px;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+.titelBox #seitenTitel {
+    font-weight: lighter;
+    letter-spacing: -4px;
+}
+
+.titelBox {
+    padding-bottom: 30px;
+    max-width: 640px;
+    margin: auto;
+    text-align: center;
+}
+
+#lebenslauf {
+    display: table;
+    width: 100%;
+}
+
+#lebenslauf li {
+    display: table-cell;
+}
+
+#lebenslauf li .info .text .title {
+    display: table-cell;
+    border-bottom: 1px #FFF dotted;
+}
+
+#lebenslauf li .info .strich {
+    border-left: 2px solid #FFF;
+    min-height: 80px;
+    margin: 0 16px;
+    float: left;
+}
+
+#lebenslauf li .info .text {
+    float: left;
+    max-width: 70%;
+}
+
+#lebenslauf li .info .text .title:first-letter {
+    font-size: 24px;
+}
+
+.clear {
+    clear: both;
+}
+
+#lebenslauf li .info {
+    min-height: 80px;
+}
+
+#lebenslauf li .balken .kugel {
+    float: left;
+    margin-right: 20px;
+    width: 32px;
+    height: 32px;
+    background: #FFF;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+#lebenslauf li .balken .strich {
+    height: 10px;
+    margin: 0 20px 0 50px;
+    display: block;
+    background: #FFF;
+    position: relative;
+    top: 10px;
+}
+
+.wrapper {
+    width: 1080px;
+    margin: auto;
+}
+
+.blue-bg {
+    background: #035674; /* Old browsers */
+    background: -moz-linear-gradient(top, #035674 0%, #015571 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#035674), color-stop(100%,#015571)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #035674 0%,#015571 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #035674 0%,#015571 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #035674 0%,#015571 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #035674 0%,#015571 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#035674', endColorstr='#015571',GradientType=0 ); /* IE6-9 */
+}
+
+body {
+    font-family: 'Signika', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    color: #FFF;
+}
+
+header #navigation ul {
+    list-style-type: none;
+    display: table;
+    width: 100%;
+}
+
+header #navigation li {
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+}
+
+a:hover:after,
+a:hover:before {
+    opacity: 1;
+}
+
+a:hover:before {
+    right: 110%;
+}
+
+a:hover:after {
+    left: 110%;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+.small, a:before, a:after {
+    font-size: 22px;
+}
+
+a:before, a:after {
+    opacity: 0;
+    position: absolute;
+    transition: 300ms opacity, 300ms right, 300ms left;
+}
+
+a:before {
+    content: "{";
+    right: 95%;
+}
+
+a:after {
+    content: "}";
+    left: 95%;
+}
